@@ -224,6 +224,7 @@ D:\ITI Material\SignalR\SingleR_Day1\Models\obj\Debug\net8.0\Models.GeneratedMSB
 D:\ITI Material\SignalR\SingleR_Day1\Models\obj\Debug\net8.0\Models.AssemblyInfoInputs.cache
 D:\ITI Material\SignalR\SingleR_Day1\Models\obj\Debug\net8.0\Models.AssemblyInfo.cs
 D:\ITI Material\SignalR\SingleR_Day1\Models\obj\Debug\net8.0\Models.csproj.CoreCompileInputs.cache
+D:\ITI Material\SignalR\SingleR_Day1\Models\obj\Debug\net8.0\Models.sourcelink.json
 D:\ITI Material\SignalR\SingleR_Day1\Models\obj\Debug\net8.0\Models.csproj.Up2Date
 D:\ITI Material\SignalR\SingleR_Day1\Models\obj\Debug\net8.0\Models.dll
 D:\ITI Material\SignalR\SingleR_Day1\Models\obj\Debug\net8.0\refint\Models.dll

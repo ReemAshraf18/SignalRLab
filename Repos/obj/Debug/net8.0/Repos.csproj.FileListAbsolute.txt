@@ -12,6 +12,7 @@ D:\ITI Material\SignalR\SingleR_Day1\Repos\obj\Debug\net8.0\Repos.GeneratedMSBui
 D:\ITI Material\SignalR\SingleR_Day1\Repos\obj\Debug\net8.0\Repos.AssemblyInfoInputs.cache
 D:\ITI Material\SignalR\SingleR_Day1\Repos\obj\Debug\net8.0\Repos.AssemblyInfo.cs
 D:\ITI Material\SignalR\SingleR_Day1\Repos\obj\Debug\net8.0\Repos.csproj.CoreCompileInputs.cache
+D:\ITI Material\SignalR\SingleR_Day1\Repos\obj\Debug\net8.0\Repos.sourcelink.json
 D:\ITI Material\SignalR\SingleR_Day1\Repos\obj\Debug\net8.0\Repos.csproj.Up2Date
 D:\ITI Material\SignalR\SingleR_Day1\Repos\obj\Debug\net8.0\Repos.dll
 D:\ITI Material\SignalR\SingleR_Day1\Repos\obj\Debug\net8.0\refint\Repos.dll

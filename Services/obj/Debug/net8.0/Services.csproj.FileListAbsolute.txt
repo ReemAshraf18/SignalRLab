@@ -14,6 +14,7 @@ D:\ITI Material\SignalR\SingleR_Day1\Services\obj\Debug\net8.0\Services.Generate
 D:\ITI Material\SignalR\SingleR_Day1\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
 D:\ITI Material\SignalR\SingleR_Day1\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
 D:\ITI Material\SignalR\SingleR_Day1\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+D:\ITI Material\SignalR\SingleR_Day1\Services\obj\Debug\net8.0\Services.sourcelink.json
 D:\ITI Material\SignalR\SingleR_Day1\Services\obj\Debug\net8.0\Services.csproj.Up2Date
 D:\ITI Material\SignalR\SingleR_Day1\Services\obj\Debug\net8.0\Services.dll
 D:\ITI Material\SignalR\SingleR_Day1\Services\obj\Debug\net8.0\refint\Services.dll

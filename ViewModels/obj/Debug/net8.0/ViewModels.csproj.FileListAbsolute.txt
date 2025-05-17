@@ -16,6 +16,7 @@ D:\ITI Material\SignalR\SingleR_Day1\ViewModels\obj\Debug\net8.0\ViewModels.Gene
 D:\ITI Material\SignalR\SingleR_Day1\ViewModels\obj\Debug\net8.0\ViewModels.AssemblyInfoInputs.cache
 D:\ITI Material\SignalR\SingleR_Day1\ViewModels\obj\Debug\net8.0\ViewModels.AssemblyInfo.cs
 D:\ITI Material\SignalR\SingleR_Day1\ViewModels\obj\Debug\net8.0\ViewModels.csproj.CoreCompileInputs.cache
+D:\ITI Material\SignalR\SingleR_Day1\ViewModels\obj\Debug\net8.0\ViewModels.sourcelink.json
 D:\ITI Material\SignalR\SingleR_Day1\ViewModels\obj\Debug\net8.0\ViewModels.csproj.Up2Date
 D:\ITI Material\SignalR\SingleR_Day1\ViewModels\obj\Debug\net8.0\ViewModels.dll
 D:\ITI Material\SignalR\SingleR_Day1\ViewModels\obj\Debug\net8.0\refint\ViewModels.dll

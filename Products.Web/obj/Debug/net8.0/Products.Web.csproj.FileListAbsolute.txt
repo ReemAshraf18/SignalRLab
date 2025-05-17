@@ -165,6 +165,7 @@ D:\ITI Material\SignalR\SingleR_Day1\Products.Web\obj\Debug\net8.0\Products.Web.
 D:\ITI Material\SignalR\SingleR_Day1\Products.Web\obj\Debug\net8.0\Products.Web.MvcApplicationPartsAssemblyInfo.cache
 D:\ITI Material\SignalR\SingleR_Day1\Products.Web\obj\Debug\net8.0\Products.Web.RazorAssemblyInfo.cache
 D:\ITI Material\SignalR\SingleR_Day1\Products.Web\obj\Debug\net8.0\Products.Web.RazorAssemblyInfo.cs
+D:\ITI Material\SignalR\SingleR_Day1\Products.Web\obj\Debug\net8.0\Products.Web.sourcelink.json
 D:\ITI Material\SignalR\SingleR_Day1\Products.Web\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\ITI Material\SignalR\SingleR_Day1\Products.Web\obj\Debug\net8.0\scopedcss\bundle\Products.Web.styles.css
 D:\ITI Material\SignalR\SingleR_Day1\Products.Web\obj\Debug\net8.0\scopedcss\projectbundle\Products.Web.bundle.scp.css
@@ -179,4 +180,3 @@ D:\ITI Material\SignalR\SingleR_Day1\Products.Web\obj\Debug\net8.0\refint\Produc
 D:\ITI Material\SignalR\SingleR_Day1\Products.Web\obj\Debug\net8.0\Products.Web.pdb
 D:\ITI Material\SignalR\SingleR_Day1\Products.Web\obj\Debug\net8.0\Products.Web.genruntimeconfig.cache
 D:\ITI Material\SignalR\SingleR_Day1\Products.Web\obj\Debug\net8.0\ref\Products.Web.dll
-D:\ITI Material\SignalR\SingleR_Day1\Products.Web\obj\Debug\net8.0\Products.Web.sourcelink.json
