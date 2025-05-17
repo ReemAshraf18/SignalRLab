@@ -1,0 +1,82 @@
+﻿@model ProductCatalog.Models.Product
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<h1>@Model.Name</h1>
+
+<div class="card">
+    <img src="@Model.ImageUrl" class="card-img-top" alt="@Model.Name" style="height: 300px; object-fit: cover;" />
+    <div class="card-body">
+        <h5 class="card-title">@Model.Name</h5>
+        <p class="card-text"><strong>Price:</strong> @Model.Price</p>
+        <p class="card-text">@Model.Description</p>
+        <p class="card-text"><strong>Quantity:</strong> @Model.Quantity</p>
+    </div>
+</div>
+
+<h3>Comments</h3>
+<ul id="commentsList" class="list-group mb-3">
+    @foreach (var comment in Model.Comments)
+    {
+        <li class="list-group-item">@comment.UserName: @comment.Content <small>(@DateTime.Now.ToString("g"))</small></li>
+    }
+</ul>
+
+<div class="comment-section">
+    <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" class="form-control" placeholder="Enter your username" required />
+    </div>
+    <div class="form-group">
+        <label for="content">Comment:</label>
+        <textarea id="content" class="form-control" placeholder="Enter your comment" required></textarea>
+    </div>
+    <button type="button" id="sendButton" class="btn btn-success" onclick="SendMessage()">Submit Comment</button>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<!-- SignalR Client (js) -->
+<script src="~/lib/microsoft-signalr/signalr.min.js"></script>
+
+@section Scripts {
+    <script>
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/commentHub")
+            .build();
+
+        connection.start().then(function () {
+            console.log("Connection Success");
+        }).catch(function (err) {
+            console.error("Connection Failed: " + err.toString());
+        });
+
+        connection.on("ReceiveComment", (productId, username, content) => {
+            if (productId == @Model.Id) {
+                const comment = `<li class="list-group-item">${username}: ${content} <small>(${new Date().toLocaleString()})</small></li>`;
+                $("#commentsList").append(comment);
+            }
+        });
+
+        function SendMessage() {
+            const username = $("#username").val().trim();
+            const content = $("#content").val().trim();
+
+            // Validation
+            if (!username || !content) {
+                alert("Please enter both username and comment.");
+                return;
+            }
+
+            // Send the comment via SignalR
+            connection.invoke("SendComment", @Model.Id, username, content)
+                .then(() => {
+                    // Clear the input fields after sending
+                    $("#username").val("");
+                    $("#content").val("");
+                })
+                .catch(err => console.error("Send Comment Failed: " + err.toString()));
+        }
+    </script>
+}

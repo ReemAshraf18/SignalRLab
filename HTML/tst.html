@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Product</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+</head>
+<body>
+
+    <h2>Add Product</h2>
+    <form id="productForm">
+        <input type="text" id="name" placeholder="Name" required><br>
+        <input type="number" id="price" placeholder="Price" required><br>
+        <input type="text" id="description" placeholder="Description"><br>
+        <input type="number" id="quantity" placeholder="Quantity" required><br>
+        <input type="text" id="imageUrl" placeholder="Image URL"><br>
+        <button type="submit">Add Product</button>
+    </form>
+
+    <script>
+var connection = new signalR.HubConnectionBuilder().withUrl("http://localhost:5227/Products/productHub").build();
+
+    connection.start().then( ()=> {console.log("connection success")})
+        connection.on("ProductAdded", function (product) {
+            console.log("Product added:", product);
+            alert("✅ Product added: " + product.name);
+        }).catch(function (err) {
+            return console.error(err.toString());
+        });
+        
+    </script>
+
+</body>
+</html>

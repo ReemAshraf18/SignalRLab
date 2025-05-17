@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ITI Material\\SignalR\\SingleR_Day1\\ProductCatalog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5EF2E4-2D09-417F-9FF4-BA63F0270B6D}|ProductCatalog\\ProductCatalog.csproj|d:\\iti material\\signalr\\singler_day1\\productcatalog\\productcatalog\\productcatalog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EB5EF2E4-2D09-417F-9FF4-BA63F0270B6D}|ProductCatalog\\ProductCatalog.csproj|solutionrelative:productcatalog\\productcatalog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5EF2E4-2D09-417F-9FF4-BA63F0270B6D}|ProductCatalog\\ProductCatalog.csproj|d:\\iti material\\signalr\\singler_day1\\productcatalog\\productcatalog\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5EF2E4-2D09-417F-9FF4-BA63F0270B6D}|ProductCatalog\\ProductCatalog.csproj|solutionrelative:productcatalog\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5EF2E4-2D09-417F-9FF4-BA63F0270B6D}|ProductCatalog\\ProductCatalog.csproj|d:\\iti material\\signalr\\singler_day1\\productcatalog\\productcatalog\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5EF2E4-2D09-417F-9FF4-BA63F0270B6D}|ProductCatalog\\ProductCatalog.csproj|solutionrelative:productcatalog\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5EF2E4-2D09-417F-9FF4-BA63F0270B6D}|ProductCatalog\\ProductCatalog.csproj|d:\\iti material\\signalr\\singler_day1\\productcatalog\\productcatalog\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5EF2E4-2D09-417F-9FF4-BA63F0270B6D}|ProductCatalog\\ProductCatalog.csproj|solutionrelative:productcatalog\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5EF2E4-2D09-417F-9FF4-BA63F0270B6D}|ProductCatalog\\ProductCatalog.csproj|d:\\iti material\\signalr\\singler_day1\\productcatalog\\productcatalog\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5EF2E4-2D09-417F-9FF4-BA63F0270B6D}|ProductCatalog\\ProductCatalog.csproj|solutionrelative:productcatalog\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5EF2E4-2D09-417F-9FF4-BA63F0270B6D}|ProductCatalog\\ProductCatalog.csproj|d:\\iti material\\signalr\\singler_day1\\productcatalog\\productcatalog\\hubs\\commenthub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5EF2E4-2D09-417F-9FF4-BA63F0270B6D}|ProductCatalog\\ProductCatalog.csproj|solutionrelative:productcatalog\\hubs\\commenthub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5EF2E4-2D09-417F-9FF4-BA63F0270B6D}|ProductCatalog\\ProductCatalog.csproj|d:\\iti material\\signalr\\singler_day1\\productcatalog\\productcatalog\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5EF2E4-2D09-417F-9FF4-BA63F0270B6D}|ProductCatalog\\ProductCatalog.csproj|solutionrelative:productcatalog\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5EF2E4-2D09-417F-9FF4-BA63F0270B6D}|ProductCatalog\\ProductCatalog.csproj|d:\\iti material\\signalr\\singler_day1\\productcatalog\\productcatalog\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5EF2E4-2D09-417F-9FF4-BA63F0270B6D}|ProductCatalog\\ProductCatalog.csproj|solutionrelative:productcatalog\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductCatalog",
+              "DocumentMoniker": "D:\\ITI Material\\SignalR\\SingleR_Day1\\ProductCatalog\\ProductCatalog\\ProductCatalog.csproj",
+              "RelativeDocumentMoniker": "ProductCatalog\\ProductCatalog.csproj",
+              "ToolTip": "D:\\ITI Material\\SignalR\\SingleR_Day1\\ProductCatalog\\ProductCatalog\\ProductCatalog.csproj",
+              "RelativeToolTip": "ProductCatalog\\ProductCatalog.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-12T07:21:35.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\ITI Material\\SignalR\\SingleR_Day1\\ProductCatalog\\ProductCatalog\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "ProductCatalog\\Views\\Products\\Details.cshtml",
+              "ToolTip": "D:\\ITI Material\\SignalR\\SingleR_Day1\\ProductCatalog\\ProductCatalog\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "ProductCatalog\\Views\\Products\\Details.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAowFEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T07:20:34.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ITI Material\\SignalR\\SingleR_Day1\\ProductCatalog\\ProductCatalog\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProductCatalog\\Views\\Products\\Index.cshtml",
+              "ToolTip": "D:\\ITI Material\\SignalR\\SingleR_Day1\\ProductCatalog\\ProductCatalog\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "ProductCatalog\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T07:20:08.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ITI Material\\SignalR\\SingleR_Day1\\ProductCatalog\\ProductCatalog\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProductCatalog\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ITI Material\\SignalR\\SingleR_Day1\\ProductCatalog\\ProductCatalog\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProductCatalog\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowBEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T07:19:30.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\ITI Material\\SignalR\\SingleR_Day1\\ProductCatalog\\ProductCatalog\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "ProductCatalog\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\ITI Material\\SignalR\\SingleR_Day1\\ProductCatalog\\ProductCatalog\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "ProductCatalog\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAowCwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T07:19:06.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CommentHub.cs",
+              "DocumentMoniker": "D:\\ITI Material\\SignalR\\SingleR_Day1\\ProductCatalog\\ProductCatalog\\Hubs\\CommentHub.cs",
+              "RelativeDocumentMoniker": "ProductCatalog\\Hubs\\CommentHub.cs",
+              "ToolTip": "D:\\ITI Material\\SignalR\\SingleR_Day1\\ProductCatalog\\ProductCatalog\\Hubs\\CommentHub.cs",
+              "RelativeToolTip": "ProductCatalog\\Hubs\\CommentHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T07:18:34.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\ITI Material\\SignalR\\SingleR_Day1\\ProductCatalog\\ProductCatalog\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "ProductCatalog\\Services\\ProductService.cs",
+              "ToolTip": "D:\\ITI Material\\SignalR\\SingleR_Day1\\ProductCatalog\\ProductCatalog\\Services\\ProductService.cs",
+              "RelativeToolTip": "ProductCatalog\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T07:17:55.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\ITI Material\\SignalR\\SingleR_Day1\\ProductCatalog\\ProductCatalog\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "ProductCatalog\\Services\\IProductService.cs",
+              "ToolTip": "D:\\ITI Material\\SignalR\\SingleR_Day1\\ProductCatalog\\ProductCatalog\\Services\\IProductService.cs",
+              "RelativeToolTip": "ProductCatalog\\Services\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T07:17:29.991Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

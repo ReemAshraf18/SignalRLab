@@ -1,0 +1,74 @@
+﻿@model List<Models.Product>
+
+@{
+    ViewData["Title"] = "Products";
+}
+
+<h1>Products</h1>
+
+<div class="mb-3">
+    <a asp-action="AddProduct" class="btn btn-success">+ Add New Product</a>
+</div>
+
+<!-- أضفنا id هنا -->
+<div class="row" id="productsContainer">
+    @foreach (var product in Model)
+    {
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <img src="@product.ImageUrl" class="card-img-top" alt="@product.Name" style="height: 200px; object-fit: cover;" />
+                <div class="card-body">
+                    <h5 class="card-title">@product.Name</h5>
+                    <p class="card-text"><strong>Price:</strong> @product.Price</p>
+                    <p class="card-text">@product.Description</p>
+                    <p class="card-text"><strong>Quantity:</strong> @product.Quantity</p>
+
+                    <div class="d-flex justify-content-between">
+                        <a asp-action="Details" asp-route-id="@product.Id" class="btn btn-primary btn-sm">Details</a>
+                        <a asp-action="UpdateProduct" asp-route-id="@product.Id" class="btn btn-warning btn-sm">Edit</a>
+                        <a asp-action="DeleteProduct" asp-route-id="@product.Id" class="btn btn-danger btn-sm">Delete</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+
+@section Scripts {
+    <script>
+        
+                var connection = new signalR.HubConnectionBuilder().withUrl("/productHub").build();
+        connection.start().then( ()=> {console.log("connection success")})
+        connection.on("ProductAdded", function (product) {
+            alert(" New Project Added " + product.name);
+
+            const productsContainer = document.getElementById("productsContainer");
+
+            const productCard = document.createElement("div");
+            productCard.classList.add("col-md-4");
+            productCard.innerHTML = `
+                <div class="card mb-4 shadow-sm">
+                    <img src="${product.imageUrl}" class="card-img-top" alt="${product.name}" style="height: 200px; object-fit: cover;" />
+                    <div class="card-body">
+                        <h5 class="card-title">${product.name}</h5>
+                        <p class="card-text"><strong>Price:</strong> ${product.price}</p>
+                        <p class="card-text">${product.description}</p>
+                        <p class="card-text"><strong>Quantity:</strong> ${product.quantity}</p>
+                        <div class="d-flex justify-content-between">
+                            <a href="/Products/Details/${product.id}" class="btn btn-primary btn-sm">Details</a>
+                            <a href="/Products/UpdateProduct/${product.id}" class="btn btn-warning btn-sm">Edit</a>
+                            <a href="/Products/DeleteProduct/${product.id}" class="btn btn-danger btn-sm">Delete</a>
+                        </div>
+                    </div>
+                </div>
+            `;
+            productsContainer.appendChild(productCard);
+        });
+
+        // connection.start().catch(function (err) {
+        //     return console.error(err.toString());
+        // });
+    </script>
+}
