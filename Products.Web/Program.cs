@@ -13,18 +13,25 @@ builder.Services.AddScoped<ProductRepository>();
 builder.Services.AddScoped<ProductService>();
 
 builder.Services.AddSignalR();
+
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll",
-        builder => builder.AllowAnyOrigin()
-                          .AllowAnyMethod()
-                          .AllowAnyHeader()
-               );
+    options.AddPolicy("AllowSpecificOrigin", policyBuilder =>
+    {
+        policyBuilder.WithOrigins("http://127.0.0.1:5500")
+               .AllowAnyHeader()
+               .AllowAnyMethod()
+               .AllowCredentials();
+    });
 });
 
 var app = builder.Build();
-app.UseCors("AllowAll");
 
+app.UseRouting();
+
+app.UseCors("AllowSpecificOrigin");
+
+app.UseAuthorization();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -35,13 +42,10 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
-app.UseRouting();
-
-app.UseAuthorization();
-
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Products}/{action=Index}/{id?}");
+
 app.MapHub<ProductHub>("/productHub");
 app.MapHub<CommentHub>("/CommentHub");
 

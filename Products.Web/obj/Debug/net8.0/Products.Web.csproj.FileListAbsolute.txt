@@ -179,3 +179,4 @@ D:\ITI Material\SignalR\SingleR_Day1\Products.Web\obj\Debug\net8.0\refint\Produc
 D:\ITI Material\SignalR\SingleR_Day1\Products.Web\obj\Debug\net8.0\Products.Web.pdb
 D:\ITI Material\SignalR\SingleR_Day1\Products.Web\obj\Debug\net8.0\Products.Web.genruntimeconfig.cache
 D:\ITI Material\SignalR\SingleR_Day1\Products.Web\obj\Debug\net8.0\ref\Products.Web.dll
+D:\ITI Material\SignalR\SingleR_Day1\Products.Web\obj\Debug\net8.0\Products.Web.sourcelink.json
